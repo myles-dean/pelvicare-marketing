@@ -1,0 +1,32 @@
+:root {
+  --white: whitesmoke;
+  --purple: #432a64;
+}
+
+.body {
+  background-color: var(--white);
+  font-family: Gabarito, sans-serif;
+}
+
+.logo {
+  width: 12em;
+}
+
+.div-block {
+  color: var(--purple);
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 100svh;
+  display: flex;
+}
+
+.heading {
+  font-weight: 400;
+}
+
+.paragraph {
+  font-weight: 700;
+}
+
+
